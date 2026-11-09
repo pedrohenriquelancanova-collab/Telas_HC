@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cancelar atendimento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="side-button left"></div>
+      <div class="side-button right"></div>
+      <div class="screen">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="notch"></div>
+          <span>● ● ▰</span>
+        </div>
+        <main class="page-container">
+          <a class="back-link" href="consulta_atendimentos.html">← Voltar</a>
+          <header class="page-header">
+            <h1>Cancelar atendimento</h1>
+            <p class="subtitle">
+              Informe o motivo para registrar o cancelamento.
+            </p>
+          </header>
+          <div class="info-box warning-box">
+            Atenção: após confirmar, o atendimento será marcado como cancelado.
+            O motivo ficará salvo no histórico.
+          </div>
+          <div class="card">
+            <strong>Ana Beatriz Silva</strong>
+            <p>Matemática • 10/06/2026 às 14:00</p>
+            <p>Modalidade: Presencial</p>
+          </div>
+          <form class="form" action="consulta_atendimentos.html">
+            <div class="input-group">
+              <label>Motivo do cancelamento *</label
+              ><textarea
+                placeholder="Informe obrigatoriamente o motivo do cancelamento"
+                required
+              ></textarea>
+            </div>
+            <button class="danger">Confirmar cancelamento</button
+            ><a class="button secondary" href="consulta_atendimentos.html"
+              >Desistir</a
+            >
+          </form>
+        </main>
+        <nav class="bottom-nav">
+          <a class="" href="inicio_professor.html"><span>⌂</span>Início</a
+          ><a class="active" href="consulta_atendimentos.html"
+            ><span>▣</span>Agenda</a
+          ><a class="" href="consulta_usuarios.html"><span>♙</span>Usuários</a
+          ><a class="" href="cadastro_usuario.html"><span>☻</span>Perfil</a>
+        </nav>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>

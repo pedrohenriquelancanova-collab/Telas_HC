@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classificar situação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="side-button left"></div>
+      <div class="side-button right"></div>
+      <div class="screen">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="notch"></div>
+          <span>● ● ▰</span>
+        </div>
+        <main class="page-container">
+          <a class="back-link" href="registro_atendimento.html"
+            >← Voltar para registro</a
+          >
+          <header class="page-header">
+            <h1>Classificar situação</h1>
+            <p class="subtitle">
+              Selecione a classificação correspondente ao atendimento.
+            </p>
+          </header>
+          <form class="form" action="acompanhamento.html">
+            <div class="card">
+              <div class="radio-row" style="flex-direction: column; gap: 17px">
+                <label
+                  ><input type="radio" name="situacao" required /> Realizado
+                  conforme o previsto</label
+                ><label
+                  ><input type="radio" name="situacao" /> Realizado
+                  parcialmente</label
+                ><label
+                  ><input type="radio" name="situacao" /> Estudante não
+                  compareceu</label
+                ><label
+                  ><input type="radio" name="situacao" /> Atendimento não
+                  realizado</label
+                ><label><input type="radio" name="situacao" /> Cancelado</label>
+              </div>
+            </div>
+            <div class="info-box">
+              Em atendimentos em grupo, registre a presença ou ausência de cada
+              estudante individualmente.
+            </div>
+            <button>Confirmar situação</button>
+          </form>
+        </main>
+        <nav class="bottom-nav">
+          <a class="" href="inicio_professor.html"><span>⌂</span>Início</a
+          ><a class="active" href="consulta_atendimentos.html"
+            ><span>▣</span>Agenda</a
+          ><a class="" href="consulta_usuarios.html"><span>♙</span>Usuários</a
+          ><a class="" href="cadastro_usuario.html"><span>☻</span>Perfil</a>
+        </nav>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>

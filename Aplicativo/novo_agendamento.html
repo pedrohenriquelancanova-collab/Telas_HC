@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novo agendamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="side-button left"></div>
+      <div class="side-button right"></div>
+      <div class="screen">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="notch"></div>
+          <span>● ● ▰</span>
+        </div>
+        <main class="page-container">
+          <a class="back-link" href="consulta_atendimentos.html"
+            >← Voltar para atendimentos</a
+          >
+          <header class="page-header">
+            <h1>Novo agendamento</h1>
+            <p class="subtitle">
+              Preencha os dados para organizar o atendimento.
+            </p>
+          </header>
+          <form class="form" action="consulta_atendimentos.html">
+            <div class="input-group">
+              <label>Participantes</label
+              ><select>
+                <option>Selecione o aluno ou grupo</option>
+                <option>Ana Beatriz Silva</option>
+                <option>Bruno Martins</option>
+                <option>Grupo - Projeto TCC</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Data</label><input type="date" value="" />
+            </div>
+            <div class="input-group">
+              <label>Horário</label><input type="time" value="" />
+            </div>
+            <div class="input-group">
+              <label>Duração prevista</label
+              ><select>
+                <option>30 minutos</option>
+                <option selected>1 hora</option>
+                <option>1 hora e 30 minutos</option>
+                <option>2 horas</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Disciplina</label
+              ><select>
+                <option>Selecione a disciplina</option>
+                <option>Matemática</option>
+                <option>Programação</option>
+                <option>Projeto de TCC</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Tipo de atendimento</label
+              ><select>
+                <option>Selecione o tipo</option>
+                <option>Esclarecimento de dúvidas</option>
+                <option>Orientação de TCC</option>
+                <option>Acompanhamento de projetos</option>
+                <option>Atividades práticas</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Modalidade</label>
+              <div class="radio-row">
+                <label
+                  ><input type="radio" name="modalidade" checked />
+                  Presencial</label
+                ><label><input type="radio" name="modalidade" /> Remoto</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Local ou link</label
+              ><input placeholder="Sala, bloco ou link da reunião" />
+            </div>
+            <div class="input-group">
+              <label>Descrição / objetivo</label
+              ><textarea
+                placeholder="Descreva o objetivo do atendimento"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <label>Observações iniciais</label
+              ><textarea placeholder="Observações opcionais"></textarea>
+            </div>
+            <button>Agendar atendimento</button>
+          </form>
+        </main>
+        <nav class="bottom-nav">
+          <a class="" href="inicio_professor.html"><span>⌂</span>Início</a
+          ><a class="active" href="consulta_atendimentos.html"
+            ><span>▣</span>Agenda</a
+          ><a class="" href="consulta_usuarios.html"><span>♙</span>Usuários</a
+          ><a class="" href="cadastro_usuario.html"><span>☻</span>Perfil</a>
+        </nav>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>

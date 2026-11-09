@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="side-button left"></div>
+      <div class="side-button right"></div>
+      <div class="screen">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="notch"></div>
+          <span>● ● ▰</span>
+        </div>
+        <main class="page-container">
+          <a class="back-link" href="inicio_professor.html">← Voltar</a>
+          <header class="page-header">
+            <h1>Cadastrar usuário</h1>
+            <p class="subtitle">
+              Preencha os dados para cadastrar um aluno ou professor.
+            </p>
+          </header>
+          <form class="form" action="consulta_usuarios.html">
+            <div class="input-group">
+              <label>Perfil de usuário</label>
+              <div class="radio-row">
+                <label><input type="radio" name="perfil" checked /> Aluno</label
+                ><label><input type="radio" name="perfil" /> Professor</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Nome completo</label
+              ><input placeholder="Digite o nome completo" required />
+            </div>
+            <div class="input-group">
+              <label>Matrícula / identificação</label
+              ><input placeholder="Digite a matrícula" required />
+            </div>
+            <div class="input-group">
+              <label>E-mail institucional</label
+              ><input
+                type="email"
+                placeholder="exemplo@instituicao.edu.br"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label>Telefone</label
+              ><input type="tel" placeholder="(00) 00000-0000" />
+            </div>
+            <div class="input-group">
+              <label>Curso</label
+              ><select>
+                <option>Selecione o curso</option>
+                <option>Ciência da Computação</option>
+                <option>Sistemas de Informação</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Senha provisória</label
+              ><input type="password" placeholder="Crie uma senha" required />
+            </div>
+            <button>Cadastrar usuário</button>
+          </form>
+        </main>
+        <nav class="bottom-nav">
+          <a class="" href="inicio_professor.html"><span>⌂</span>Início</a
+          ><a class="" href="consulta_atendimentos.html"><span>▣</span>Agenda</a
+          ><a class="active" href="consulta_usuarios.html"
+            ><span>♙</span>Usuários</a
+          ><a class="" href="cadastro_usuario.html"><span>☻</span>Perfil</a>
+        </nav>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>

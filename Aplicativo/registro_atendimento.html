@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro da realização</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="side-button left"></div>
+      <div class="side-button right"></div>
+      <div class="screen">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="notch"></div>
+          <span>● ● ▰</span>
+        </div>
+        <main class="page-container">
+          <a class="back-link" href="aguardando_registro.html">← Voltar</a>
+          <header class="page-header">
+            <h1>Registrar atendimento</h1>
+            <p class="subtitle">
+              Documente o que aconteceu durante o atendimento.
+            </p>
+          </header>
+          <div class="card">
+            <strong>Bruno Martins - Física</strong>
+            <p>06/06/2026 • 10:00 • Presencial</p>
+          </div>
+          <form class="form" action="classificar_situacao.html">
+            <div class="input-group">
+              <label>Situação do atendimento</label
+              ><select required>
+                <option value="">Selecione a situação</option>
+                <option>Realizado conforme o previsto</option>
+                <option>Realizado parcialmente</option>
+                <option>Estudante não compareceu</option>
+                <option>Atendimento não realizado</option>
+                <option>Cancelado</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Conteúdo / assunto tratado</label
+              ><textarea
+                placeholder="Descreva os assuntos abordados"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <label>Atividades realizadas</label
+              ><textarea
+                placeholder="Descreva as atividades realizadas"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <label>Observações</label
+              ><textarea
+                placeholder="Observações sobre o atendimento"
+              ></textarea>
+            </div>
+            <h2>Participação dos estudantes</h2>
+            <div class="input-group">
+              <label>Compareceram</label
+              ><select>
+                <option>Bruno Martins</option>
+                <option>Ana Beatriz Silva</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Não compareceram</label
+              ><select>
+                <option>Selecione os estudantes ausentes</option>
+                <option>Nenhum</option>
+                <option>Ana Beatriz Silva</option>
+              </select>
+            </div>
+            <button>Salvar registro</button>
+          </form>
+        </main>
+        <nav class="bottom-nav">
+          <a class="" href="inicio_professor.html"><span>⌂</span>Início</a
+          ><a class="active" href="consulta_atendimentos.html"
+            ><span>▣</span>Agenda</a
+          ><a class="" href="consulta_usuarios.html"><span>♙</span>Usuários</a
+          ><a class="" href="cadastro_usuario.html"><span>☻</span>Perfil</a>
+        </nav>
+        <div class="home-indicator"></div>
+      </div>
+    </div>
+  </body>
+</html>
