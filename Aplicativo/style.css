@@ -4,20 +4,20 @@
   box-sizing: border-box;
 }
 :root {
-  --bg: #111827;
-  --surface: #1f2937;
-  --surface2: #273449;
-  --border: #374151;
-  --text: #f9fafb;
-  --muted: #9ca3af;
-  --primary: #4f46e5;
-  --hover: #4338ca;
-  --accent: #818cf8;
-  --danger: #ef4444;
+  --bg: #f3f7f3;
+  --surface: #ffffff;
+  --surface2: #e7f0e8;
+  --border: #d2dfd3;
+  --text: #183326;
+  --muted: #647568;
+  --primary: #21834b;
+  --hover: #17683a;
+  --accent: #176b3b;
+  --danger: #c93636;
 }
 body {
   min-height: 100vh;
-  background: #d1d5db;
+  background: #e5ece6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ body {
   position: absolute;
   width: 100px;
   height: 25px;
-  background: #050505;
+  background: #10251a;
   border-radius: 20px;
   top: 5px;
   left: 50%;
@@ -141,7 +141,7 @@ h3 {
 .input-group label,
 .field-label {
   font-size: 12px;
-  color: #e5e7eb;
+  color: #294536;
   font-weight: 600;
 }
 input,
@@ -158,7 +158,7 @@ textarea {
 }
 input::placeholder,
 textarea::placeholder {
-  color: #9ca3af;
+  color: #829184;
 }
 input:focus,
 select:focus,
@@ -175,7 +175,7 @@ textarea {
   flex-wrap: wrap;
   gap: 13px;
   font-size: 12px;
-  color: #d1d5db;
+  color: #405849;
 }
 .radio-row label,
 .check-row label {
@@ -219,7 +219,7 @@ button:hover,
 .outline {
   background: transparent !important;
   border: 1px solid var(--primary);
-  color: #c7d2fe;
+  color: #176b3b;
 }
 .small {
   width: auto;
@@ -267,22 +267,22 @@ a {
   display: inline-block;
   padding: 5px 8px;
   border-radius: 20px;
-  background: #312e81;
-  color: #c7d2fe;
+  background: #e2f2e6;
+  color: #176b3b;
   font-size: 10px;
   white-space: nowrap;
 }
 .green {
-  background: #14532d;
-  color: #bbf7d0;
+  background: #d8f0df;
+  color: #176b3b;
 }
 .yellow {
-  background: #78350f;
-  color: #fde68a;
+  background: #fff1cc;
+  color: #805500;
 }
 .red {
-  background: #7f1d1d;
-  color: #fecaca;
+  background: #fce2e2;
+  color: #9f2525;
 }
 .search-row {
   display: flex;
@@ -309,7 +309,7 @@ a {
   padding: 8px 11px;
   border-radius: 20px;
   background: var(--surface);
-  color: #d1d5db;
+  color: #405849;
   font-size: 11px;
   white-space: nowrap;
 }
@@ -319,18 +319,18 @@ a {
 }
 .info-box {
   padding: 12px;
-  background: #312e81;
-  border: 1px solid #4338ca;
+  background: #e2f2e6;
+  border: 1px solid #b8d9c0;
   border-radius: 10px;
-  color: #e0e7ff;
+  color: #245437;
   font-size: 11px;
   line-height: 1.5;
   margin-bottom: 16px;
 }
 .warning-box {
-  background: #422006;
-  border-color: #92400e;
-  color: #fde68a;
+  background: #fff1cc;
+  border-color: #e4c46b;
+  color: #805500;
 }
 .stat-grid {
   display: grid;
@@ -358,7 +358,7 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 12px 5px 15px;
-  background: #111827f7;
+  background: #fffffffa;
   border-top: 1px solid var(--border);
   margin: 20px -22px -28px;
 }
@@ -368,7 +368,7 @@ a {
   text-align: center;
 }
 .bottom-nav a.active {
-  color: #a5b4fc;
+  color: var(--primary);
 }
 .bottom-nav span {
   display: block;
